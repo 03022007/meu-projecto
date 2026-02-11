@@ -55,4 +55,12 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
             color: rgb(25, 53, 105);
+
+        }
+        section {
+          scroll-margin-top: 90px; /* ajuste conforme a altura da navbar */
+        }
+
+        html {
+          scroll-behavior: smooth;
         }
