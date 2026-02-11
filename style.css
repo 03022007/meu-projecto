@@ -1,0 +1,58 @@
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-brand img {
+            transition: transform 0.3s ease;
+            max-height: 60px;
+        }
+        
+        .navbar-brand img:hover {
+            transform: scale(1.05);
+        }
+        
+        .nav-link {
+            transition: all 0.3s ease;
+            position: relative;
+            margin: 0 5px;
+            border-radius: 4px;
+        }
+        
+        .nav-link:hover {
+            color: #00d4ff !important;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding-left: 12px;
+        }
+        
+        .btn-login {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            transition: all 0.3s ease;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        
+        .btn-login:hover {
+            background-color: white;
+            color: rgb(25, 53, 105);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .btn-signup {
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            color: white;
+            border: none;
+            transition: all 0.3s ease;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        
+        .btn-signup:hover {
+            background: linear-gradient(135deg, #0099cc, #00d4ff);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
+            color: rgb(25, 53, 105);
+        }
